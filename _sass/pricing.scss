@@ -13,6 +13,12 @@
 		box-shadow: 0px 0px 10px #eee;
 		width: 100%;
 
+		/* Added flex properties for consistent card heights */
+		display: flex; /* New line */
+		flex-direction: column; /* New line */
+		justify-content: space-between; /* New line */
+		height: 100%; /* New line */
+
 		.highlighted {
 			font-size: 1.2em
 		}
@@ -26,12 +32,21 @@
 				padding: 20px 0;
 				border-radius: 0 0 2px 2px;
 				border: 0;
+				/* Added hover effect for buttons */
+				transition: background-color 0.3s ease; /* New line */
+
+				&:hover { /* New block */
+					background-color: darken(#333, 10%); /* New line */
+					color: #fff; /* New line */
+				}
 			}
 		}
 
 		@media #{$desktop} {
 			-webkit-flex: 1;
 			flex: 1;
+			/* Removed height limitation for desktop */
+			min-height: auto; /* Changed line */
 		}
 
 		li {
@@ -43,6 +58,8 @@
 				margin: 0;
 				color: #fff;
 				font-weight: normal;
+				/* Added consistent font size for headings */
+				font-size: 1.5em; /* New line */
 			}
 		}
 	}
