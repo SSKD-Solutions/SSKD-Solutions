@@ -14,10 +14,13 @@
 		width: 100%;
 
 		/* Added flex properties for consistent card heights */
-		display: flex; /* New line */
-		flex-direction: column; /* New line */
-		justify-content: space-between; /* New line */
-		height: 100%; /* New line */
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		/* Ensures all cards have the same height */
+		height: 100%; /* Existing line */
+		min-height: 400px; /* Added line to set a minimum height */
 
 		.highlighted {
 			font-size: 1.2em
@@ -53,6 +56,10 @@
 			border-top-right-radius: 5px;
 			border-top-left-radius: 5px;
 			padding: 20px 0;
+
+			/* Ensure uniform spacing within list items */
+			flex-grow: 1; /* Added line to make items stretch equally */
+			
 			h3 {
 				padding: 0;
 				margin: 0;
