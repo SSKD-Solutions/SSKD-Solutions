@@ -68,6 +68,17 @@ header {
 	position: relative;
 }
 
+.picture {
+	display: flex; /* Use flexbox for container */
+	justify-content: center; /* Center content horizontally */
+	align-items: center; /* Center content vertically */
+	width: 100%; /* Full width */
+	height: auto; /* Allow height to adjust dynamically */
+	max-width: 1200px; /* Optional: Maximum size for larger screens */
+	aspect-ratio: 16 / 9; /* Maintain 16:9 aspect ratio */
+	overflow: hidden; /* Ensure no extra space */
+	background: black; /* Fallback background to avoid white borders */
+}
 
 .video-container {
 	display: flex; /* Use flexbox for container */
