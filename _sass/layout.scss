@@ -99,6 +99,7 @@ header {
 	width: 100%; /* Full width */
 	height: 100%; /* Full height */
 	border: none; /* Remove border */
+	object-fit: contain; /* Ensure the video inside the iframe scales correctly */
   }
 
 section {
