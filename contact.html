@@ -11,7 +11,7 @@ description: We'd love to help you solve your problems.
 ---
 <div class="map" id="map"></div> -->
 
-
+<!-- 
 <div class="contact-box">
 	<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
 		<input type="hidden" name="_to" value="sskdsolutions@gmail.com" />
@@ -27,7 +27,28 @@ description: We'd love to help you solve your problems.
 		<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
 
 		<input type="submit" value="Send Message" />
+	</form> -->
+
+
+<div class="contact-box">
+	<form action="https://formsubmit.co/el/wuduya" method="POST">
+		<input type="hidden" name="_to" value="sskdsolutions@gmail.com" />
+		<input type="text" name="_gotcha" style="display: none;">
+	
+		<label for="name">Full Name</label>
+		<input type="text" name="name" id="name" placeholder="Enter your name..." />
+	
+		<label for="email">Email Address</label>
+		<input type="email" name="email" id="email" placeholder="Enter your email..." required />
+	
+		<label for="message">Message</label>
+		<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
+	
+		<input type="submit" >Send</button>
 	</form>
+
+
+
 
 	<div class="contact-details">
 		<!-- <h3 class="editable">Address</h3> -->
