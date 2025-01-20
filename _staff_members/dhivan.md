@@ -7,7 +7,7 @@ blurb: |
   I’m an electronics hardware enthusiast passionate about turning ideas into reality. 
   With extensive experience in hardware prototyping, 3D printing, and electronics manufacturing, 
   I love helping companies bring their electronic products to life—whether it's designing custom PCBs, 
-  integrating embedded systems, or solving complex hardware challenges.
+  integrating embedded systems, or solving complex hardware challenges. <br><br>
 
   Over the years, I’ve worked on a variety of exciting projects, from cutting-edge consumer electronics 
   to robust industrial applications. My expertise spans PCB design, firmware development, 
