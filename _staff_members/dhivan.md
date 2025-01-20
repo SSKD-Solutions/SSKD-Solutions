@@ -24,5 +24,5 @@ blurb: |
   Whether you’re developing a groundbreaking product, refining an existing design, or overcoming technical challenges, 
   I’m here to help you turn your vision into something remarkable. <br><br>
 
-  **Let’s create something extraordinary together!**
+  <strong>Let’s create something extraordinary together!</strong>
 ---
